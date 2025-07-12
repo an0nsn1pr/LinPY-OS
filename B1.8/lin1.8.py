@@ -141,7 +141,7 @@ def nano_editor(stdscr, editfilename):
 
 print("Loaded text editor")
 print("Getting current directory...")
-filename = "lin.py"
+filename = "lin1.8.py"
 try:
     currentdir = "root"
     linpypath = os.getcwd()
