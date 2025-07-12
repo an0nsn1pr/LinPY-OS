@@ -414,7 +414,7 @@ while True:
         if not cmd:
             continue
 
-        if cmd == help:
+        if cmd == helpcmd:
             print(cmd_list)
         elif cmd == hexample:
             print(cmdhelp_list)
