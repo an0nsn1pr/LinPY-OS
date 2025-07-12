@@ -263,7 +263,7 @@ if setup["setupcheck"] == False:
 
         p = hashlib.new("SHA256")
         if confirm== "y":
-            p.update(user.encode())
+            p.update(password.encode())
             setup["username"] = user
             setup["passw"] = p.hexdigest()
             setup["setupcheck"] = True
