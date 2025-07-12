@@ -558,13 +558,13 @@ while True:
             if currentdir == "root":
                 os.chdir("..")
                 os.system("cls")
-                os.system("python lin.py")
+                os.system(f"python lin.py")
                 break
             else:
                 os.chdir("..")
                 os.chdir("..")
                 os.system("cls")
-                os.system("python lin.py")
+                os.system(f"python {filename}")
                 break
         
         elif command[0] == "reset":
