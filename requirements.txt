@@ -1,0 +1,8 @@
+cefpython3==66.1
+cffi==1.17.1
+cryptography==45.0.5
+ping3==4.0.8
+pycparser==2.22
+pygame==2.6.1
+python-nmap==0.7.1
+windows-curses==2.4.1
