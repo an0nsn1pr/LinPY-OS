@@ -185,7 +185,7 @@ try:
             "setupcheck":False,
             "username": " ",
             "passw": " ",
-            "version": "Beta 1.8"
+            "version": "Beta 1.9"
         }
         with open("setup.json", "w") as f:
             json.dump(sj, f, indent=4)
