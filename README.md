@@ -23,7 +23,8 @@ You can now ping IPs or domains with the "ping" command, if you add a number aft
 You can now see who is in your subnet using "netdiscover" command. Use: netdiscover [subnet, example: 192.168.0.] , yes the . has to be in the end
 You can now change commands and their use with "changecmd" command. Use: changecmd [previous command name] [new command name]
 Warning: If you want to change a command back, you need to use "restorecmd", this will reset all the commands tho
-If you want to see the default commands, use "pdcmd" - short for "print default commands"
+If you want to see the default commands, use "pdcmd" - short for "print default commands"\
+And finally, YOU CAN USE WINDOWS COMMANDS WITH "sys" !!! Use: sys [command (can be more than one spacing)]
 
 Fixed: lsall, credits
 
